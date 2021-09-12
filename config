@@ -1,0 +1,7 @@
+[user]
+	name = Damian Zamolski
+	email = damian.zamola.zamolski@gmail.com
+[init]
+	defaultBranch = main
+[push]
+	default = current
