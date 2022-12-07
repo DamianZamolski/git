@@ -1,7 +1,30 @@
 [user]
-	name = Damian Zamolski
-	email = damian.zamola.zamolski@gmail.com
+name = Damian Zamolski
+email = damian.zamola.zamolski@gmail.com
+
 [init]
-	defaultBranch = main
+defaultBranch = main
+
 [push]
-	default = current
+default = current
+
+[pull]
+rebase = false
+
+[core]
+pager = delta
+
+[interactive]
+diffFilter = delta --color-only
+
+[delta]
+navigate = true
+light = true
+side-by-side = true
+line-numbers = true
+
+[merge]
+conflictstyle = diff3
+
+[diff]
+colorMoved = default
