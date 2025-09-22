@@ -28,5 +28,6 @@ conflictstyle = diff3
 
 [diff]
 colorMoved = default
+
 [color]
-	ui = always
+ui = always
